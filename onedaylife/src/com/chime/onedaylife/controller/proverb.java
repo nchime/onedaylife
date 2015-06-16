@@ -39,6 +39,7 @@ public class proverb {
 			}
 		}
 		
+		
 		for (int i = 0; i < boxArray.length; i++) {
 			System.out.print(" "+boxArray[i]); 
 		}
