@@ -33,6 +33,19 @@ public class proverb {
 		for (int i = 0; i < resultArray.length; i++) {
 			System.out.print(" " + resultArray[i]);
 		}
+		
+		
+		
+		// TODO 
+		// 젠킨스 사용법, 웹서버 사이트 배포서버 선정
+		// 일단 로컬에서 작업
+		// 개발된 결과물은 배포할 수 있는 환경을 구성하자. 먼저 vm 환경에서 충분히 테스트한 후  
+		
+		
+		
+		
+		
+		
 
 		// map과 ArrayList의 개념
 
