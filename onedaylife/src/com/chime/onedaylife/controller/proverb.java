@@ -54,9 +54,14 @@ public class proverb {
 		 * 
 		 * System.out.println(list.get(1));
 		 */
-
 	}
 
+	/**
+	 * 
+	 * Selection Algorithm
+	 * @param boxArray
+	 * @return
+	 */
 	private static int[] selectionSort(int[] boxArray) {
 		// selection Sort
 
