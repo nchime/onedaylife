@@ -14,35 +14,24 @@ import java.util.Map;
  */
 public class proverb {
 
-	
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.println("1. 소트 알고리즘");
+		// Input Data
+		int[] inputArray = { 9, 8, 7, 6, 4, 3, 5, 2, 1 };
+
+		System.out.println("1. Selection Sort 알고리즘");
 		System.out.println("================");
 
-		// int[] boxArray = new int[10];
+		int[] resultArray = new int[10];
 
-		int[] boxArray = { 9, 8, 7, 6, 4, 3, 5, 2, 1 };
+		resultArray = selectionSort(inputArray);
 
-		int temp = 0;
-		
-		for (int i = 0; i < boxArray.length - 1; i++) {
-			for (int j = i+1; j < boxArray.length; j++) {
-				if (boxArray[i] > boxArray[j]) {
-					temp = boxArray[i];
-					boxArray[i] = boxArray[j];
-					boxArray[j] = temp;
-				}
-			}
-		}
-		
-		
-		for (int i = 0; i < boxArray.length; i++) {
-			System.out.print(" "+boxArray[i]); 
+		for (int i = 0; i < resultArray.length; i++) {
+			System.out.print(" " + resultArray[i]);
 		}
 
 		// map과 ArrayList의 개념
@@ -66,6 +55,23 @@ public class proverb {
 		 * System.out.println(list.get(1));
 		 */
 
+	}
+
+	private static int[] selectionSort(int[] boxArray) {
+		// selection Sort
+
+		int temp = 0;
+		for (int i = 0; i < boxArray.length - 1; i++) {
+			for (int j = i + 1; j < boxArray.length; j++) {
+				if (boxArray[i] > boxArray[j]) {
+					temp = boxArray[i];
+					boxArray[i] = boxArray[j];
+					boxArray[j] = temp;
+				}
+			}
+		}
+
+		return boxArray;
 	}
 
 }
