@@ -16,7 +16,6 @@ public class proverb {
 
 	
 	
-	
 	/**
 	 * @param args
 	 */
