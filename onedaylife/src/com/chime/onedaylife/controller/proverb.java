@@ -14,6 +14,9 @@ import java.util.Map;
  */
 public class proverb {
 
+	
+	
+	
 	/**
 	 * @param args
 	 */
