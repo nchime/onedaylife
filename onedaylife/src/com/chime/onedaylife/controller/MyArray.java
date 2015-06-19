@@ -31,9 +31,13 @@ public class MyArray {
 			throw new ArrayIndexOutOfBoundsException(count + ">= "
 					+ data.length);
 		}
-
+		
+		
+		int[] temp;  
+		
 		for (int i = index; i < count; i++) {
 			data[i + 1] = data[i];
+			System.out.println("==>" + i +  " " + data[i]);
 		}
 		count++;
 

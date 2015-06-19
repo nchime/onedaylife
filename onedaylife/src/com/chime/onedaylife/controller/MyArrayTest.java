@@ -25,11 +25,11 @@ public class MyArrayTest {
 		}
 		
 		// 인덱스 데이터 삭제 
-		arr.remove(0); 
+		arr.remove(2); 
 		System.out.println(arr);		
 		
 		
-		arr.add(0, "추가 데이터");
+		arr.add(2, "추가 데이터");
 		System.out.println(arr);		
 
 	
